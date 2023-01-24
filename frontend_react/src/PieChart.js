@@ -45,7 +45,7 @@ const Slice = props =>{
     let {pie} = props;
 
     let arc = d3.arc()
-    .innerRadius(90)
+    .innerRadius(0)
     .outerRadius(150)
 
 
